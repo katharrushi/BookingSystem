@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UPI Payment Option</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      .header {
+        background-color: #008CBA;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+      }
+
+      .column {
+        flex: 50%;
+        padding: 10px;
+      }
+
+      .payment {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .payment img {
+        width: 80%;
+        max-width: 200px;
+      }
+
+      .payment h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+      }
+
+      .payment input[type=text], .payment input[type=tel] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        resize: vertical;
+      }
+
+      .payment button[type=submit] {
+        background-color: #333;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .payment button[type=submit]:hover {
+        background-color: #444;
+      }
+
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Unified Payments Interface</h1>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="payment">
+          <img src="QR.jpg" alt="UPI Payment">
+          <h2>Scan QR Code</h2>
+          <p>Scan This QR Code Using Any UPI Enabled Mobile App To Make Payment</p>
+          
+          <h3>OR</h3>
+          <p>Verify UPI ID And Mobile Number To Make Payment </p>
+          
+          <form>
+            <label for="upi-id">UPI ID</label>
+            <input type="text" id="upi-id" name="upi-id" placeholder="Enter your UPI ID">
+            <label for="mobile-number">Mobile Number</label>
+            <input type="tel" id="mobile-number" name="mobile-number" placeholder="Enter your mobile number">
+            
+            <div class="inputBox">
+              <a href="indexTC.html" class="submit-btn">PAY NOW</a>
+          </div>
+          </form>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>

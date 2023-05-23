@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <link rel="icon" href="favicon (2).ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Auditorium Seat Booking</h1>
+    <br /><br /><br /><br /><br /><br />
+
+    <form>
+      <img src="Ticket.png" alt="Logo" /><br /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="event" name="Event_Select">Event:</label>
+      <select id="event_1">
+        <option>Select an event</option>
+        <option>Concert</option>
+        <option>Comedy Show</option>
+        <option>Theater Play</option></select
+      ><br /><br />
+      <label for="num_tickets" id="">Number of Tickets:</label>
+      <input
+        type="number"
+        id="num_tickets"
+        name="num_tickets"
+        min="1"
+        max="10"
+      /><br /><br />
+
+      <label for="city">Choose a City:</label>
+      <select id="city" name="city">
+        <option>Select a city</option>
+        <option value="Chhatrapati Sambhajinagar">
+          Chhatrapati Sambhajinagar
+        </option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Nashik">Nashik</option>
+      </select>
+      <br /><br />
+      <label for="date-input">Select a date:</label>
+      <input type="date" id="date-input" name="selected-date"><a href="SeatBooking.html">
+      <button type="button" onclick="bookTicket()">Book Now</button></a>  
+      <br /><br />
+    </form>
+
+    <div id="message"></div>
+    <script src="script1.js"></script>
+  </body>
+</html>

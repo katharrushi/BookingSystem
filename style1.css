@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.855);
+  /* background-color: #fff; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.855);
+  /* background-color: #fff; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px gray;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 380px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+}
+
+label {
+  font-weight: bold;
+  margin: 5px 0;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 5px;
+  margin: 5px 0;
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+input[type="date"] {
+  padding: 5px;
+  margin: 5px 0;
+  width: 231px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+input[type="number"] {
+  padding: 5px;
+  margin: 5px 0;
+  width: 185px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#event_1 {
+  padding: 5px;
+  margin: 5px 0;
+  width: 290px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#city {
+  padding: 5px;
+  margin: 5px 0;
+  width: 233px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  padding: 10px 20px;
+  background-color: rgb(41, 37, 42);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+#message {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+label,
+select,
+button {
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+  border-radius: 5px;
+}
+img {
+  width: 100px;
+
+  margin-left: 140px;
+  animation: pulse 0.75s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,77 @@
+#lowerdiv .col-xl-1 {
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+   
+
+}
+
+#Mdrow1 .col-xl-1 {
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.MDrow1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#VIProw .col-xl-1 {
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.VIPRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 262px;
+    background-color: grey;
+
+}
+
+.selection {
+    position: sticky;
+}
+.container2{
+    border-radius: 20px;
+
+}
+
+.submit-btn{
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);    
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .2s linear;
+    
+}
